@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dongle&family=Fredoka+One&family=Inconsolata:wght@300;500&family=Outfit&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Quicksand:wght@400;500;600;700&family=Roboto&display=swap');
+* {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.respon {
+ width: 100%;
+ margin: auto;
+ max-width: 600px;
+}
+.form {
+ width: 95%;
+ height: 100%;
+ overflow: auto;
+ margin: auto;
+ padding: 7px;
+ box-sizing: border-box;
+ box-shadow: rgba(0,0,0,0.30)1px 1px 4px;
+ border-radius: 3px;
+ margin-top: 5px;
+}
+.com {
+ margin: auto;
+ width: 95%;
+ margin-top: 6px;
+}
+.form input, textarea {
+ background-color: transparent;
+ padding: 7px;
+ border: 0.8px dotted gray;
+ resize: none;
+ width: 100%;
+ margin-top: 5px;
+ box-sizing: border-box;
+}
+.form textarea {
+ width: 100%;
+ height: 100%;
+ max-height: 70px;
+ font-size: 16px;
+}
+.chat {
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ margin: auto;
+ padding: 7px;
+ box-sizing: border-box;
+ box-shadow: rgba(0,0,0,0.30)1px 1px 4px;
+ border-radius: 3px;
+ margin-top: 5px;
+}
+.chat img {
+ margin-top: 4px;
+ margin-right: 2px;
+ margin-left: 4px;
+ width: 30px;
+ float: left;
+ border-radius: 50%;
+ margin-right: 10px;
+ animation: ofline 1.3s infinite;
+}
+.chat .text{
+ margin-left: 45px;
+}
+@keyframes ofline {
+  0%, 30% {outline: 0px solid rgba(0,20,120,0.30);}
+  100% {outline: 2px solid rgba(0,20,120,0.0);}
+}
